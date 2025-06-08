@@ -1,0 +1,6 @@
+services:
+  airlinebookingsystem.bookings.api:
+    image: ${DOCKER_REGISTRY-}airlinebookingsystembookingsapi
+    build:
+      context: .
+      dockerfile: src/AirlineBookingSystem.Bookings.Api/Dockerfile
