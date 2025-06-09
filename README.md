@@ -1,5 +1,8 @@
 # AirlineBookingSystem - Arquitetura de Micro-serviços
 
+## Resumo da Solução
+A solução AirlineBookingSystem é composta por quatro micro-serviços independentes, desenvolvidos em .NET 8, que juntos implementam um sistema completo de reservas aéreas. Cada serviço é responsável por um domínio específico, promovendo escalabilidade, manutenção facilitada e integração desacoplada via mensageria assíncrona (RabbitMQ + MassTransit).
+
 ## Visão Geral
 
 A solução AirlineBookingSystem é composta por quatro micro-serviços principais, cada um responsável por um domínio específico do sistema. Os serviços comunicam-se de forma assíncrona utilizando RabbitMQ como message broker, com MassTransit como middleware de mensageria. O padrão CQRS é aplicado para separar comandos e consultas, promovendo escalabilidade e organização.
