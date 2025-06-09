@@ -78,6 +78,7 @@ A solução AirlineBookingSystem é composta por quatro micro-serviços principa
 - **Infraestrutura:**
   - **MassTransit** para mensageria/eventos
   - **RabbitMQ** como message broker
+  - **Postgres** como banco de dados
 
 - **Principais Endpoints:**
   - `POST /api/payments` — Processamento de pagamento
