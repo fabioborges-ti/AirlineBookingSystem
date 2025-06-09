@@ -138,11 +138,12 @@ A solução AirlineBookingSystem é composta por quatro micro-serviços principa
 2. Ajuste as strings de conexão em cada serviço.
 3. Execute cada serviço individualmente:
 
-
+```bash
 dotnet run --project src/AirlineBookingSystem.Booking.Api 
 dotnet run --project src/AirlineBookingSystem.Flight.Api 
 dotnet run --project src/AirlineBookingSystem.Payment.Api 
 dotnet run --project src/AirlineBookingSystem.Notification.Api
+```
 
 4. Acesse a documentação Swagger de cada serviço em `/swagger`.
 
