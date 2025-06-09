@@ -7,6 +7,8 @@ A solução AirlineBookingSystem é composta por quatro micro-serviços independ
 
 A solução AirlineBookingSystem é composta por quatro micro-serviços principais, cada um responsável por um domínio específico do sistema. Os serviços comunicam-se de forma assíncrona utilizando RabbitMQ como message broker, com MassTransit como middleware de mensageria. O padrão CQRS é aplicado para separar comandos e consultas, promovendo escalabilidade e organização.
 
+## Diagrama Arquitetural
+![Diagrama](./architecture.png)
 ---
 
 ## Serviços, Tecnologias e Endpoints
