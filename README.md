@@ -52,6 +52,7 @@ A solução AirlineBookingSystem é composta por quatro micro-serviços principa
 - **Infraestrutura:**
   - **MassTransit** para mensageria/eventos
   - **RabbitMQ** como message broker
+  - **MongoDb** como banco de dados noSql
 
 - **Principais Endpoints:**
   - `GET /api/flights` — Listagem de voos disponíveis
