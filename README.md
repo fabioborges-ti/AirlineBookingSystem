@@ -13,7 +13,7 @@ A solução AirlineBookingSystem é composta por quatro micro-serviços principa
 
 ## Serviços, Tecnologias e Endpoints
 
-### 1. AirlineBookingSystem.Booking.Api
+### 1. Booking.Api
 
 - **Tecnologias Utilizadas:**
   - .NET 8 (ASP.NET Core)
@@ -40,7 +40,7 @@ A solução AirlineBookingSystem é composta por quatro micro-serviços principa
 
 ---
 
-### 2. AirlineBookingSystem.Flight.Api
+### 2. Flight.Api
 
 - **Tecnologias Utilizadas:**
   - .NET 8 (ASP.NET Core)
@@ -66,7 +66,7 @@ A solução AirlineBookingSystem é composta por quatro micro-serviços principa
 
 ---
 
-### 3. AirlineBookingSystem.Payment.Api
+### 3. Payment.Api
 
 - **Tecnologias Utilizadas:**
   - .NET 8 (ASP.NET Core)
@@ -91,7 +91,7 @@ A solução AirlineBookingSystem é composta por quatro micro-serviços principa
 
 ---
 
-### 4. AirlineBookingSystem.Notification.Api
+### 4. Notification.Api
 
 - **Tecnologias Utilizadas:**
   - .NET 8 (ASP.NET Core)
