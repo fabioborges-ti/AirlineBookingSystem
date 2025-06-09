@@ -105,6 +105,7 @@ A solução AirlineBookingSystem é composta por quatro micro-serviços principa
   - **MassTransit** para mensageria/eventos
   - **RabbitMQ** como message broker
   - **Dapper** para acesso a dados
+  - **Sql Server** como banco de dados Sql
   - **Microsoft.Data.SqlClient** para conexão com SQL Server
 
 - **Principais Endpoints:**
