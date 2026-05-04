@@ -1,4 +1,4 @@
-# AirlineBookingSystem
+# Microsserviços com .NET 8: CQRS, MassTransit e RabbitMQ na Prática 🚀
 
 ## Visão Geral
 
